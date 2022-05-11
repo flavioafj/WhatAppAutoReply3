@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Respondedor Automático Pconf</string>
+    <string name="resposta1">Coloque sua *resposta 1* aqui</string>
+    <string name="pergunta1">1</string>
+    <string name="resposta2">Coloque sua *resposta 2* aqui</string>
+    <string name="pergunta2">2</string>
+    <string name="resposta3">Coloque sua *resposta 3* aqui</string>
+    <string name="pergunta3">3</string>
+    <string name="resposta4">Coloque sua *resposta 4* aqui</string>
+    <string name="pergunta4">4</string>
+    <string name="resposta5">Coloque sua *resposta 5* aqui</string>
+    <string name="pergunta5">5</string>
+    <string name="resposta6">Coloque sua *resposta 6* aqui</string>
+    <string name="pergunta6">6</string>
+    <string name="resposta7">Coloque sua *resposta 7* aqui</string>
+    <string name="pergunta7">7</string>
+    <string name="resposta8">Coloque sua *resposta 8* aqui</string>
+    <string name="pergunta8">8</string>
+    <string name="editarResposta_titulo">Edite suas respostas</string>
+    <string name="editar_respostaAtualizaarr">Atualizar</string>
+    <string name="LigaDesliga">Liga</string>
+    <string name="DesligaLiga">Desliga</string>
+</resources>

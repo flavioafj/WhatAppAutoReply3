@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ligaDesliga"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get received content" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn on notification listening service" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable data read and write permissions" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openNotificationSettings"
+        android:text="notification settings" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:onClick="openEditorRespostas"
+        android:text="Editar respostas" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:onClick="ligDesliga"
+        android:text="@string/LigaDesliga"
+        android:textOff="@string/LigaDesliga"
+        android:textOn="@string/DesligaLiga" />
+
+
+</LinearLayout>
