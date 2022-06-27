@@ -20,4 +20,19 @@
     <string name="editar_respostaAtualizaarr">Atualizar</string>
     <string name="LigaDesliga">Liga</string>
     <string name="DesligaLiga">Desliga</string>
+    <string name="title_activity_geradora_comprovante_pix">GeradoraComprovantePix</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="comprovante">Comprovante</string>
+    <string name="dd_reserva">Cole os dados da reserva</string>
+    <string name="dt_res">Data</string>
+    <string name="val_res">Valor</string>
+    <string name="Nome_res">Nome</string>
+    <string name="pl_res">Placa</string>
 </resources>

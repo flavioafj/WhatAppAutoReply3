@@ -70,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openComprovantes(View view) {
+        Intent intent = new Intent(this, GeradoraComprovantePix.class);
+        startActivity(intent);
+    }
+
     public void ligDesliga(View view) {
         Switch ld = (Switch) findViewById(R.id.switch1);
         //Intent intent = new Intent(MainActivity.this, MyNotifiService.class);

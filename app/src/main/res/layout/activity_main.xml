@@ -54,5 +54,12 @@
         android:textOff="@string/LigaDesliga"
         android:textOn="@string/DesligaLiga" />
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:onClick="openComprovantes"
+        android:text="@string/comprovante" />
+
 
 </LinearLayout>
