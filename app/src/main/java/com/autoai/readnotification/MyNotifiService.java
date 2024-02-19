@@ -18,6 +18,7 @@ import android.os.Message;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
 import android.support.v4.app.RemoteInput;
+import android.text.SpannableString;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -98,7 +99,7 @@ public class MyNotifiService extends NotificationListenerService {
 //            Log.i(TAG, respost);
                 Log.i(TAG, "Here");
 
-                String strAserAvaliada = (String) sbn.getNotification().extras.get("android.text");
+                String strAserAvaliada = (String) "" + sbn.getNotification().extras.get("android.text");
 //            String perg1 = getString(R.string.pergunta1);
 //            String resp1 = getString(R.string.resposta1);
 
