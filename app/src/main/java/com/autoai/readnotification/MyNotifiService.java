@@ -99,7 +99,7 @@ public class MyNotifiService extends NotificationListenerService {
 //            Log.i(TAG, respost);
                 Log.i(TAG, "Here");
 
-                String strAserAvaliada = (String) "" + sbn.getNotification().extras.get("android.text");
+                String strAserAvaliada = (String) "" + sbn.getNotification().extras.get("android.text").toString();
 //            String perg1 = getString(R.string.pergunta1);
 //            String resp1 = getString(R.string.resposta1);
 
